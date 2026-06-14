@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בת-חן דמתי – מומחית CBT ומטפלת EMDR מוסמכת | קליניקה בהושעיה</title>
+    <meta name="description" content="קליניקה פרטית לטיפול CBT ו-EMDR בהושעיה בהנחיית בת-חן דמתי. טיפול יעיל וממוקד בחרדה, טראומה, דיכאון, קשיים רגשיים והנחיית הורים. השכרת חדרים ומקום לסדנאות.">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts link is already loaded inside styles.css -->
+</head>
+<body>
+
+    <!-- Floating WhatsApp Widget -->
+    <div class="whatsapp-widget" id="whatsapp-widget">
+        <a href="https://wa.me/972544353332?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%91%D7%AA-%D7%97%D7%9F%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%94%D7%AA%D7%99%D7%99%D7%A2%D7%A5%20%D7%90%D7%99%D7%AA%D7%9A%20%D7%9C%D7%92%D7%91%D7%99%20%D7%98%D7%99%D7%A4%D7%95%D7%9C." target="_blank" class="whatsapp-btn" aria-label="פנייה בוואטסאפ">
+            <i data-lucide="message-circle"></i>
+            <span class="whatsapp-pulse"></span>
+        </a>
+    </div>
+
+    <!-- App Header & Navigation -->
+    <header class="app-header">
+        <div class="container header-container">
+            <div class="brand-logo">
+                <div class="logo-circle">
+                    <i data-lucide="sparkles"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>בת-חן דמתי <span>CBT & EMDR</span></h1>
+                    <p>קליניקה לטיפול והנחיה רגשית</p>
+                </div>
+            </div>
+            
+            <nav class="main-nav" id="main-nav">
+                <a href="#hero" class="nav-link active">בית</a>
+                <a href="#about" class="nav-link">אודות</a>
+                <a href="#services" class="nav-link">סוגי טיפול</a>
+                <a href="#clinic" class="nav-link">הקליניקה בהושעיה</a>
+                <a href="#assessment" class="nav-link">שאלון התאמה</a>
+                <a href="#faq" class="nav-link">שאלות נפוצות</a>
+                <a href="#contact" class="nav-link">צור קשר</a>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-primary">תיאום ייעוץ</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="תפריט ניווט">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">מומחית CBT ומטפלת EMDR</span>
+                    <h2>הכוח לרפא ולשנות <span>נמצא בתוכך</span></h2>
+                    <p class="hero-quote">"לפעמים כל מה שצריך הוא מרחב בטוח, הקשבה וליווי מקצועי כדי למצוא מחדש את האיזון והחוסן הפנימי."</p>
+                    <p class="hero-desc">בקליניקה נעימה ומזמינה ביישוב הושעיה, אני מלווה מבוגרים, מתבגרים והורים בתהליכי שינוי משמעותיים. באמצעות שילוב ממוקד של טיפול קוגניטיבי-התנהגותי (CBT), שיטת EMDR לעיבוד חוויות חיים קשות, וטיפול באמנות – אנו מייצרים כלים פרקטיים להתמודדות עם חרדות, לחצים, קשיים רגשיים וטראומה.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-accent">צרו קשר לייעוץ ראשוני</a>
+                        <a href="#assessment" class="btn btn-secondary">בדקו איזה טיפול מתאים לכם</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-bg"></div>
+                    <div class="hero-image">
+                        <i data-lucide="user"></i>
+                        <div class="hero-image-tag">
+                            <i data-lucide="heart"></i>
+                            <div>
+                                <span>בת-חן דמתי</span>
+                                <p>CBT, EMDR & טיפול באומנות</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <span class="accent-badge">מטפלת מוסמכת</span>
+                    <h3>נעים להכיר, אני בת-חן</h3>
+                    <p>אני מאמינה שכל אדם פוגש במהלך חייו אתגרים המזמינים אותו להתבוננות פנימית ולצמיחה. מטרתי כמטפלת היא להעמיד לרשותך סביבה בטוחה, לא שיפוטית ותומכת, המשלבת ידע קליני מקצועי עם הקשבה עמוקה וחמלה.</p>
+                    <p>אני מטפלת רגשית בעלת ניסיון עשיר, המתמחה בשילוב גישות טיפוליות מתקדמות המותאמות אישית לכל מטופל ומטופלת. אני משלבת את שיטות ה-CBT וה-EMDR יחד עם הבעה יצירתית באומנות, מה שמאפשר מענה רחב ועמוק לקשיים רגשיים והתנהגותיים.</p>
+                    
+                    <div class="about-credentials">
+                        <div class="credential-item">
+                            <i data-lucide="graduation-cap"></i>
+                            <span>תואר שני (MA) בטיפול באומנות</span>
+                        </div>
+                        <div class="credential-item">
+                            <i data-lucide="award"></i>
+                            <span>מטפלת CBT מומחית (חברת איט"ה)</span>
+                        </div>
+                        <div class="credential-item">
+                            <i data-lucide="shield-check"></i>
+                            <span>מטפלת EMDR מוסמכת</span>
+                        </div>
+                        <div class="credential-item">
+                            <i data-lucide="users"></i>
+                            <span>מומחית בהנחיית הורים משולבת</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-gallery">
+                    <div class="about-gallery-box">
+                        <i data-lucide="smile"></i>
+                        <h4>הגישה הטיפולית</h4>
+                        <p>שילוב גישות דינמיות עם כלים קוגניטיביים והתנהגותיים פרקטיים שניתן ליישם ביום-יום.</p>
+                    </div>
+                    <div class="about-gallery-box accent-box">
+                        <i data-lucide="activity"></i>
+                        <h4>טיפול מבוסס ראיות</h4>
+                        <p>שימוש בשיטות טיפול מוכחות מחקרית (Evidence-Based) המציגות שיעורי הצלחה גבוהים.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section section-padding" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <span class="badge">שיטות עבודה וטיפול</span>
+                    <h2 class="section-title">תחומי התמחות בקליניקה</h2>
+                    <p class="section-subtitle">כל טיפול נבנה בהתאמה אישית בהתאם לצרכים הייחודיים שלך, במטרה להוביל להקלה מהירה ולשינוי יציב וארוך טווח.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1: CBT -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i data-lucide="brain"></i>
+                        </div>
+                        <h3>טיפול קוגניטיבי התנהגותי (CBT)</h3>
+                        <p>טיפול ממוקד, קצר מועד ומכוון מטרה, המתמקד בקשר שבין מחשבות, רגשות והתנהגויות. הטיפול מסייע לזהות דפוסי חשיבה מעכבים ולתרגל דרכי פעולה חדשות. יעיל במיוחד לטיפול בחרדות, פוביות, OCD, דיכאון, וויסות רגשי ודימוי עצמי נמוך.</p>
+                        <a href="#contact" class="service-link">תיאום טיפול CBT <i data-lucide="arrow-left"></i></a>
+                    </div>
+                    
+                    <!-- Service 2: EMDR -->
+                    <div class="service-card accent-card">
+                        <div class="service-icon">
+                            <i data-lucide="eye"></i>
+                        </div>
+                        <h3>טיפול בשיטת EMDR</h3>
+                        <p>שיטה ייחודית ומוכחת מחקרית המיועדת לעיבוד מחדש של חוויות טראומטיות או זכרונות קשים מהעבר. בעזרת גירוי דו-צדדי (למשל תנועות עיניים או תיפוף), המוח מעבד מחדש את האירוע, מפחית את המטען הרגשי השלילי ויוצר הקלה משמעותית מתסמינים פוסט-טראומטיים.</p>
+                        <a href="#contact" class="service-link">תיאום טיפול EMDR <i data-lucide="arrow-left"></i></a>
+                    </div>
+                    
+                    <!-- Service 3: Art Therapy -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <h3>טיפול באומנות בשילוב CBT</h3>
+                        <p>שילוב המשלב את עולם הטיפול בהבעה ויצירה יחד עם כלים מובנים של CBT. השימוש בחומרים מאפשר לעקוף מחסומים מילוליים, לבטא קשיים עמוקים בצורה חזותית וליצור עיבוד רגשי דרך יצירה. מתאים מאוד למבוגרים ונוער המרגישים קושי לבטא את עצמם במילים בלבד.</p>
+                        <a href="#contact" class="service-link">פרטים על טיפול באומנות <i data-lucide="arrow-left"></i></a>
+                    </div>
+                    
+                    <!-- Service 4: Parental Guidance -->
+                    <div class="service-card accent-card">
+                        <div class="service-icon">
+                            <i data-lucide="heart-handshake"></i>
+                        </div>
+                        <h3>הנחיית הורים</h3>
+                        <p>הקניית כלים ומיומנויות פרקטיות להורים להתמודדות עם אתגרי גידול הילדים. ההדרכה עוזרת בביסוס סמכות הורית מטיבה, טיפול בקשיי התנהגות או פחדים אצל ילדים, פתרון קונפליקטים ושיפור האקלים והתקשורת המשפחתית בבית.</p>
+                        <a href="#contact" class="service-link">תיאום הדרכת הורים <i data-lucide="arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Clinic Section -->
+        <section class="clinic-section section-padding" id="clinic">
+            <div class="container clinic-grid">
+                <div class="clinic-content">
+                    <span class="accent-badge">מרחב מקצועי ומזמין</span>
+                    <h3>הקליניקה בהושעיה – השכרת חדרים וסדנאות</h3>
+                    <p>במצפה הושעיה שבלב הגליל, ממוקמת קליניקה נעימה, מעוצבת ומאובזרת ברמה הגבוהה ביותר. המקום מציע סביבת עבודה שקטה ומכבדת למטפלים מתחומי הטיפול הרגשי והפרה-רפואי, עם אפשרות להשכרת חדרים על בסיס ססיונים יומיים או קבועים.</p>
+                    <p>בנוסף לחדרי טיפול אישיים, המרחב מתאים לאירוח סדנאות קטנות, השתלמויות ומפגשים קבוצתיים באווירה כפרית ורגועה.</p>
+                    
+                    <div class="clinic-features">
+                        <div class="feature-box">
+                            <i data-lucide="wind"></i>
+                            <div>
+                                <h4>חדרי טיפול ממוזגים</h4>
+                                <p>חדרים מרווחים, ממוזגים ומעוצבים ליצירת אווירה מרגיעה.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-box">
+                            <i data-lucide="brush"></i>
+                            <div>
+                                <h4>ציוד וחומרי אמנות</h4>
+                                <p>מגוון חומרים זמינים לעבודה רגשית באומנות וציוד נלווה.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-box">
+                            <i data-lucide="coffee"></i>
+                            <div>
+                                <h4>מטבחון מאובזר</h4>
+                                <p>פינת קפה ותה, מים קרים וציוד לרווחת המטפלים והמטופלים.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-box">
+                            <i data-lucide="parking-circle"></i>
+                            <div>
+                                <h4>חניה פרטית בשפע</h4>
+                                <p>גישה נוחה וחניה צמודה ללא תשלום עבור באי הקליניקה.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="clinic-contact-card">
+                    <h4>רוצים לתאם סיור בקליניקה?</h4>
+                    <p>לפרטים נוספים לגבי זמינות חדרים להשכרה או תיאום סדנאות ומפגשים, אתם מוזמנים לפנות ישירות לשי:</p>
+                    
+                    <div class="contact-meta-item">
+                        <i data-lucide="phone"></i>
+                        <a href="tel:0528513153">052-8513153 (שי)</a>
+                    </div>
+                    
+                    <div class="contact-meta-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>מצפה הושעיה, גליל תחתון</span>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary" style="margin-top: 16px; width: 100%;">פנייה בנושא השכרה</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Self-Assessment Section -->
+        <section class="assessment-section section-padding" id="assessment">
+            <div class="container assessment-container">
+                <div class="text-center">
+                    <span class="badge">כלי עזר להתאמה רגשית</span>
+                    <h2 class="section-title">שאלון התאמה עצמי</h2>
+                    <p class="section-subtitle">מתלבטים איזו שיטה טיפולית תיתן לכם את המענה הטוב ביותר? ענו על 3 שאלות קצרות וקבלו המלצה מותאמת אישית.</p>
+                </div>
+                
+                <div class="assessment-card" id="assessment-card">
+                    <!-- Progress Bar -->
+                    <div class="progress-container">
+                        <div class="progress-text">
+                            <span id="step-number-text">שאלה 1 מתוך 3</span>
+                            <span id="step-progress-percent">33% הושלמו</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 1 -->
+                    <div class="assessment-step" id="step-1">
+                        <h3>מהו האתגר או הקושי המרכזי שאתה חווה כרגע?</h3>
+                        <p class="step-desc">בחר את התשובה המתארת בצורה הטובה ביותר את תחושתך.</p>
+                        
+                        <div class="options-grid">
+                            <button class="option-btn" data-value="cbt" data-step="1">
+                                <span class="option-bullet"></span>
+                                <span>חרדה, פחדים, פוביה ספציפית או מחשבות טורדניות (OCD)</span>
+                            </button>
+                            <button class="option-btn" data-value="emdr" data-step="1">
+                                <span class="option-bullet"></span>
+                                <span>חוויות קשות מן העבר שמשפיעות על החיים והתחושה בהווה</span>
+                            </button>
+                            <button class="option-btn" data-value="art" data-step="1">
+                                <span class="option-bullet"></span>
+                                <span>קושי לבטא את עצמי במילים בלבד, תחושת מועקה פנימית וצורך ביצירתיות</span>
+                            </button>
+                            <button class="option-btn" data-value="parenting" data-step="1">
+                                <span class="option-bullet"></span>
+                                <span>קשיים בהורות, סמכות הורית או התמודדות עם התנהגות הילדים בבית</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2 (Generated Dynamic or hidden) -->
+                    <div class="assessment-step hidden" id="step-2">
+                        <h3>מהו סגנון העבודה הטיפולית שמרגיש לך נכון יותר?</h3>
+                        <p class="step-desc">חשוב על האופן שבו היית רוצה שהטיפול יתנהל.</p>
+                        
+                        <div class="options-grid">
+                            <button class="option-btn" data-value="cbt" data-step="2">
+                                <span class="option-bullet"></span>
+                                <span>שיחה ממוקדת, קבלת משימות מעשיות ותרגול בבית בין המפגשים</span>
+                            </button>
+                            <button class="option-btn" data-value="emdr" data-step="2">
+                                <span class="option-bullet"></span>
+                                <span>עיבוד חוויתי וגופני ללא צורך לדבר ממושכות על הבעיה</span>
+                            </button>
+                            <button class="option-btn" data-value="art" data-step="2">
+                                <span class="option-bullet"></span>
+                                <span>עבודה יצירתית ומשחקית בחומרי אמנות להבעת רגשות</span>
+                            </button>
+                            <button class="option-btn" data-value="parenting" data-step="2">
+                                <span class="option-bullet"></span>
+                                <span>קבלת הדרכה ממוקדת של מה לעשות וכיצד להגיב בסיטואציות יום-יומיות</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="assessment-step hidden" id="step-3">
+                        <h3>מהי המטרה העיקרית שהיית רוצה להשיג מהתהליך?</h3>
+                        <p class="step-desc">בחר את היעד שהכי חשוב לך להשיג כעת.</p>
+                        
+                        <div class="options-grid">
+                            <button class="option-btn" data-value="cbt" data-step="3">
+                                <span class="option-bullet"></span>
+                                <span>הקלה מהירה בסימפטומים ורכישת ארגז כלים להתמודדות עצמאית</span>
+                            </button>
+                            <button class="option-btn" data-value="emdr" data-step="3">
+                                <span class="option-bullet"></span>
+                                <span>עיבוד של זכרונות כואבים ואירועי עבר כדי להשתחרר מתקיעות</span>
+                            </button>
+                            <button class="option-btn" data-value="art" data-step="3">
+                                <span class="option-bullet"></span>
+                                <span>חיבור רגשי פנימי עמוק, פורקן ומרחב בטוח לביטוי אישי</span>
+                            </button>
+                            <button class="option-btn" data-value="parenting" data-step="3">
+                                <span class="option-bullet"></span>
+                                <span>יצירת אווירה נעימה ומכבדת בבית ושיפור היחסים עם הילדים</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4: Results Screen -->
+                    <div class="assessment-step hidden" id="step-result">
+                        <div class="result-content">
+                            <div class="result-icon">
+                                <i data-lucide="check-circle-2"></i>
+                            </div>
+                            <h3 class="result-title" id="result-title">המלצה טיפולית עבורך</h3>
+                            <p class="result-text">על בסיס התשובות שלך, נראה כי השיטה המתאימה ביותר להתחיל איתה היא:</p>
+                            
+                            <div class="recommendations-box">
+                                <div class="recommendation-tag" id="recommendation-tag">טיפול CBT קוגניטיבי התנהגותי</div>
+                                <h4 id="recommendation-header"><i data-lucide="info"></i> למה זה מתאים לך?</h4>
+                                <p id="recommendation-details">השיטה מתמקדת בהקניית כלים פרקטיים ובשינוי דפוסי חשיבה והתנהגות. היא תאפשר לך להתמודד בצורה אקטיבית וממוקדת עם הקושי שציינת, תוך רכישת מיומנויות שישמשו אותך גם בעתיד.</p>
+                            </div>
+                            
+                            <div class="step-actions" style="justify-content: center; gap: 16px;">
+                                <button class="btn btn-accent" id="apply-recommendation-btn">פנייה לבת-חן עם ההמלצה הזו</button>
+                                <button class="btn btn-secondary" id="restart-assessment-btn">התחל שאלון מחדש</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step Navigation -->
+                    <div class="step-actions" id="step-navigation-actions">
+                        <button class="btn btn-secondary" id="prev-step-btn" disabled>חזור</button>
+                        <button class="btn btn-primary" id="next-step-btn">המשך</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section section-padding" id="faq">
+            <div class="container">
+                <div class="text-center">
+                    <span class="badge">שאלות ותשובות</span>
+                    <h2 class="section-title">שאלות נפוצות</h2>
+                    <p class="section-subtitle">ריכזתי עבורכם תשובות לשאלות הנפוצות ביותר לגבי הטיפול והתהליך בקליניקה.</p>
+                </div>
+                
+                <div class="faq-list">
+                    <!-- FAQ 1 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>מה ההבדל בין טיפול CBT לטיפול פסיכולוגי דינמי רגיל?</span>
+                            <i data-lucide="chevron-down" class="faq-toggle-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>טיפול פסיכולוגי דינמי נוטה להתמקד בחיפוש אחר מקורות הקושי בעבר ופיתוח תובנה מעמיקה לגביהם, ולרוב אורך תקופה ממושכת. לעומתו, טיפול CBT (קוגניטיבי-התנהגותי) ממוקד יותר בהווה, מכוון מטרה ומוגדר בזמן. אנו עובדים בצורה אקטיבית בשיתוף פעולה מלא כדי לזהות דפוסי מחשבה והתנהגות מעכבים בהווה, ולרכוש כלים פרקטיים להתמודדות יומיומית.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>כמה מפגשים נדרשים בטיפול CBT או EMDR?</span>
+                            <i data-lucide="chevron-down" class="faq-toggle-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>משך הטיפול משתנה מאוד בין אדם לאדם ובין סוגי הקשיים. עם זאת, טיפולי CBT ו-EMDR ידועים כטיפולים קצרי מועד יחסית. תהליך ממוקד ממוצע נע לרוב בין 12 ל-24 מפגשים (שלושה עד שישה חודשים). במקרים של אירוע טראומטי ממוקד בודד, טיפול EMDR יכול לעיתים להסתיים אף במספר מפגשים בודדים.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>האם טיפול באומנות מתאים גם למבוגרים או רק לילדים?</span>
+                            <i data-lucide="chevron-down" class="faq-toggle-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>טיפול באומנות מתאים לחלוטין למבוגרים! לעיתים קרובות, מילים אינן מספיקות כדי לתאר מועקה, טראומה או בלבול פנימי. היצירה באומנות מאפשרת לתת צורה וצבע לתחושות הללו ללא צורך בהסברים מילוליים מורכבים. אין צורך בשום ידע מוקדם באומנות או בכישרון ציור – האומנות משמשת ככלי הבעתי ועיבודי בלבד.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>איך נראה טיפול בשיטת EMDR? האם זה היפנוזה?</span>
+                            <i data-lucide="chevron-down" class="faq-toggle-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>לא, EMDR אינה היפנוזה. המטופל נשאר בהכרה מלאה ובשליטה מוחלטת לאורך כל המפגש. במהלך המפגש, המטופל מתבקש להתמקד בזיכרון קשה או בתחושה לא נעימה, ובמקביל לעקוב אחר תנועות אצבעותיו של המטופל, אורות נעים או להחזיק במכשיר רוטט בעדינות (גירוי דו-צדדי). הגירוי מפעיל את מנגנון העיבוד הטבעי של המוח ומסייע "לתייק" מחדש את הזיכרון באופן רגוע ובריא יותר.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 5 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>מהם תנאי השכרת החדרים בקליניקה בהושעיה?</span>
+                            <i data-lucide="chevron-down" class="faq-toggle-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>הקליניקה מיועדת למטפלים רגשיים, פרא-רפואיים או יועצים המחפשים מרחב מכבד. ניתן להשכיר חדרים על בסיס ססיונים (בוקר / צהריים-ערב) או ימים מלאים. השכירות כוללת שימוש בכל מתקני הקליניקה: מיזוג, מטבחון (קפה, תה, מים), חומרי אמנות, ניקיון שוטף וחניה פרטית צמודה. לתיאום ביקור ובדיקת מחירים מומלץ ליצור קשר עם שי בטלפון 052-8513153.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container contact-grid">
+                
+                <!-- Contact Info Cards -->
+                <div class="contact-info-cards">
+                    <span class="badge">פרטי התקשרות</span>
+                    <h3 style="font-size: 2rem; margin-bottom: 8px;">נשמח לשמוע מכם</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 24px;">אתם מוזמנים להתקשר, לשלוח הודעה או להשאיר פרטים בטופס ואחזור אליכם בהקדם.</p>
+                    
+                    <!-- Card 1: Tel -->
+                    <div class="contact-info-card">
+                        <div class="contact-card-icon">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <div>
+                            <h4>טלפון להתייעצות ותיאום</h4>
+                            <p><a href="tel:0544353332">054-4353332 (בת-חן)</a></p>
+                            <p><a href="tel:0528513153">052-8513153 (שי - קליניקה וסדנאות)</a></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2: Email -->
+                    <div class="contact-info-card">
+                        <div class="contact-card-icon">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div>
+                            <h4>כתובת אימייל</h4>
+                            <p><a href="mailto:bdavidi24@gmail.com">bdavidi24@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3: Address -->
+                    <div class="contact-info-card">
+                        <div class="contact-card-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div>
+                            <h4>כתובת הקליניקה</h4>
+                            <p>מצפה הושעיה, מיקוד 17915</p>
+                            <p>מיקום שקט ודיסקרטי, עם גישה נוחה וחנייה פרטית צמודה.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Wrapper -->
+                <div class="contact-form-wrapper">
+                    <h3 style="font-size: 1.6rem; margin-bottom: 24px; color: var(--primary-color);">השאירו הודעה</h3>
+                    
+                    <form id="contact-form">
+                        <div id="form-status-container" class="hidden"></div>
+                        
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="form-name">שם מלא *</label>
+                                <input type="text" id="form-name" class="form-control" placeholder="ישראל ישראלי" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-phone">מספר טלפון *</label>
+                                <input type="tel" id="form-phone" class="form-control" placeholder="050-1234567" required autocomplete="tel">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">כתובת אימייל</label>
+                                <input type="email" id="form-email" class="form-control" placeholder="name@example.com" autocomplete="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">נושא הפנייה</label>
+                                <select id="form-subject" class="form-control">
+                                    <option value="טיפול רגשי CBT/EMDR">טיפול רגשי CBT / EMDR</option>
+                                    <option value="הדרכת הורים">הדרכת הורים / ייעוץ משפחתי</option>
+                                    <option value="השכרת חדרים בקליניקה">השכרת חדר טיפולים בהושעיה</option>
+                                    <option value="קיום סדנה או השתלמות">קיום סדנה או מפגש קבוצתי</option>
+                                    <option value="פנייה כללית">אחר / פנייה כללית</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="form-message">תוכן הפנייה *</label>
+                                <textarea id="form-message" class="form-control" placeholder="אשמח לשמוע מכם..." required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; height: 50px;" id="form-submit-btn">שליחת הודעה</button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <!-- App Footer -->
+    <footer class="app-footer">
+        <div class="container">
+            <div class="footer-logo">
+                <div class="logo-circle">
+                    <i data-lucide="sparkles"></i>
+                </div>
+                <h2>בת-חן דמתי <span>CBT & EMDR</span></h2>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="#hero">בית</a>
+                <a href="#about">אודות</a>
+                <a href="#services">סוגי טיפול</a>
+                <a href="#clinic">הקליניקה בהושעיה</a>
+                <a href="#assessment">שאלון התאמה</a>
+                <a href="#faq">שאלות נפוצות</a>
+                <a href="#contact">צור קשר</a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 קליניקה בת-חן דמתי | כל הזכויות שמורות. עיצוב ופיתוח מותאם אישית למטפלים.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Frontend JS script -->
+    <script src="app.js"></script>
+</body>
+</html>
